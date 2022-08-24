@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Warcraft3SoundboardApplication</string>
+    <string name="app_name_home">Warcraft3 Soundboard</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">TODO</string>
+    <string name="tab_name_1">Альянс</string>
+    <string name="tab_name_2">Орда</string>
+    <string name="tab_name_3">Эльфы</string>
+    <string name="tab_name_4">Нежить</string>
+</resources>
