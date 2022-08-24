@@ -5,10 +5,10 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import com.evgeshaog.iswarandcraftsoundboardapplication.R
+import com.evgeshaog.iswarandcraftsoundboardapplication.core.SoundboardPagerAdapter
 import com.evgeshaog.iswarandcraftsoundboardapplication.databinding.ActivityMainBinding
 import com.evgeshaog.iswarandcraftsoundboardapplication.presentation.WarcraftMediaPlayer.clearMediaPlayer
 import com.evgeshaog.iswarandcraftsoundboardapplication.presentation.WarcraftMediaPlayer.mediaPlayer
-import com.evgeshaog.iswarandcraftsoundboardapplication.presentation.adapter.SoundboardPagerAdapter
 import com.google.android.material.tabs.TabLayoutMediator
 
 
@@ -24,10 +24,10 @@ class MainActivity : AppCompatActivity() {
         binding.pager.adapter = SoundboardPagerAdapter(supportFragmentManager, lifecycle)
         TabLayoutMediator(binding.tabLayout, binding.pager) { tab, position ->
             when (position) {
-                0 -> tab.text = "Альянс"
-                1 -> tab.text = "Орда"
-                2 -> tab.text = "Эльфы"
-                3 -> tab.text = "Нежить"
+                0 -> tab.text = ALLIANCE
+                1 -> tab.text = HORDE
+                2 -> tab.text = ELFS
+                3 -> tab.text = UNDEAD
             }
         }.attach()
 
@@ -36,6 +36,13 @@ class MainActivity : AppCompatActivity() {
                 clearMediaPlayer()
             }
         }
+    }
+
+    companion object {
+        const val ALLIANCE = "Альянс"
+        const val HORDE = "Орда"
+        const val ELFS = "Эльфы"
+        const val UNDEAD = "Нежить"
     }
 
 }

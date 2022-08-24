@@ -7,12 +7,12 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
+import com.evgeshaog.iswarandcraftsoundboardapplication.core.SoundboardAdapter
 import com.evgeshaog.iswarandcraftsoundboardapplication.databinding.FragmentOrcsSoundboardBinding
 import com.evgeshaog.iswarandcraftsoundboardapplication.presentation.MainViewModel
 import com.evgeshaog.iswarandcraftsoundboardapplication.presentation.WarcraftMediaPlayer.clearMediaPlayer
 import com.evgeshaog.iswarandcraftsoundboardapplication.presentation.WarcraftMediaPlayer.mediaPlayer
 import com.evgeshaog.iswarandcraftsoundboardapplication.presentation.WarcraftMediaPlayer.startMediaPlayer
-import com.evgeshaog.iswarandcraftsoundboardapplication.presentation.adapter.SoundboardAdapter
 
 
 class HordeSoundboard : Fragment() {

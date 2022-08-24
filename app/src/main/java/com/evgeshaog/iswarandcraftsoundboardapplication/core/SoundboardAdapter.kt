@@ -1,4 +1,4 @@
-package com.evgeshaog.iswarandcraftsoundboardapplication.presentation.adapter
+package com.evgeshaog.iswarandcraftsoundboardapplication.core
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
