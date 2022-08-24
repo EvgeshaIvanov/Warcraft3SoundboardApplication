@@ -1,4 +1,4 @@
-package com.evgeshaog.iswarandcraftsoundboardapplication.presentation.adapter
+package com.evgeshaog.iswarandcraftsoundboardapplication.core
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
