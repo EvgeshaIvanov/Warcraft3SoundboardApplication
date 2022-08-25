@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/black"
     android:orientation="vertical"
-    tools:context="com.evgeshaog.iswarandcraftsoundboardapplication.presentation.undead.UndeadSoundboard">
+    tools:context="com.evgeshaog.warcraft3soundboardapplication.presentation.undead.UndeadSoundboard">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view"

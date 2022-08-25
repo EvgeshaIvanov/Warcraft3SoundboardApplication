@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context="com.evgeshaog.iswarandcraftsoundboardapplication.presentation.horde.HordeSoundboard">
+    tools:context="com.evgeshaog.warcraft3soundboardapplication.presentation.horde.HordeSoundboard">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view"
